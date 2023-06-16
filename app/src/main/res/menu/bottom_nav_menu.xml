@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/title_batik"
+        android:icon="@drawable/batik"
+        android:id="@+id/navigation_batik"/>
+
+    <item
+        android:title="@string/title_museum"
+        android:icon="@drawable/lokasi"
+        android:id="@+id/navigation_museum"/>
+
+    <item
+        android:title="@string/title_musik"
+        android:icon="@drawable/gamelan"
+        android:id="@+id/navigation_musik"/>
+</menu>

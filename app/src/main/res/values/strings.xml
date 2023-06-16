@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HerritageCornerUAS</string>
+    <string name="title_batik">Batik</string>
+    <string name="title_museum">Museum</string>
+    <string name="title_musik">Musik</string>
+    <string name="batik_name">Nama Batik</string>
+    <string name="batik_desk">Tentang Batik</string>
+    <string name="batik_tambahan">Info Tambahan</string>
+    <string name="musik_name">Nama Alat Musik</string>
+    <string name="musik_desk">Tentang Alat Musik</string>
+</resources>

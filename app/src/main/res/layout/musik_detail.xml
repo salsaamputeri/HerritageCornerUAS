@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/tv_name"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="364dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#98B378"
+            android:gravity="center"
+            android:text="@string/musik_name"
+            android:textColor="#4A341D"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppinssemibolditalic"
+            app:layout_constraintBottom_toTopOf="@+id/tv_desk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image" />
+
+        <TextView
+            android:id="@+id/tv_desk"
+            android:layout_width="372dp"
+            android:layout_height="355dp"
+            android:fontFamily="@font/poppinsregular"
+            android:justificationMode="inter_word"
+            android:text="@string/musik_desk"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonOpenMusik"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonOpenMusik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="6dp"
+            android:text="Website"
+            android:fontFamily="@font/poppinsmediumitalic"
+            app:backgroundTint='#6A472C'
+            app:cornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_desk" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

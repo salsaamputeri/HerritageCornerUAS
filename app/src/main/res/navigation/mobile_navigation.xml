@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_batik">
+
+    <fragment
+        android:id="@+id/navigation_batik"
+        android:name="com.example.herritagecorneruas.ui.batik.BatikFragment"
+        android:label="@string/title_batik"
+        tools:layout="@layout/fragment_batik" />
+
+    <fragment
+        android:id="@+id/navigation_museum"
+        android:name="com.example.herritagecorneruas.ui.museum.MuseumFragment"
+        android:label="@string/title_museum"
+        tools:layout="@layout/fragment_museum" />
+
+    <fragment
+        android:id="@+id/navigation_musik"
+        android:name="com.example.herritagecorneruas.ui.musik.MusikFragment"
+        android:label="@string/title_musik"
+        tools:layout="@layout/fragment_musik" />
+</navigation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.museum.MuseumFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ullensentalu"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonpesan"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Pesan Kunjungan"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#536738"
+        app:cornerRadius="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonmap"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Lokasi"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#783D3D"
+        app:cornerRadius="8dp" />
+
+    <TextView
+        android:id="@+id/text_Museum"
+        android:layout_width="358dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="start"
+        android:justificationMode="inter_word"
+        android:text="Museum Ullen Sentalu hadir berlandaskan inklusivitas dan merupakan ruang bagi dialog budaya dari masa lalu, kini, hingga mendatang. Ullen Sentalu berperan dalam menjembatani tantangan proses budaya masa kini melalui memori kolektif yang menjadi identitas budaya bangsa."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
